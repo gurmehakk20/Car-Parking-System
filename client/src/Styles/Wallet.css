@@ -1,0 +1,96 @@
+/* Wallet Component Styles */
+
+#wallet-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .wallet-title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+    text-transform: uppercase;
+  }
+  
+  .balance-section {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .balance-section h2 {
+    font-size: 24px;
+    color: #444;
+  }
+  
+  .transactions-section {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .transactions-section h2 {
+    font-size: 24px;
+    color: #444;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .transactions-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .transaction {
+    padding: 10px;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .transaction-details {
+    display: flex;
+    justify-content: space-between;
+    color: #333;
+  }
+  
+  .transaction-details span {
+    font-size: 14px;
+  }
+  
+  .add-transaction {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .add-transaction input {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .add-transaction button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .add-transaction button:hover {
+    background-color: #0056b3;
+  }
+  

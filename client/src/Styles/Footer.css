@@ -1,0 +1,126 @@
+/* Footer Container */
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: #282c34;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Footer Left Section */
+  .footer-left {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .footer-left h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .footer-left h3 span {
+    color: #61dafb;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links li {
+    margin: 5px 0;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #61dafb;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #21a1f1;
+  }
+  
+  .footer-company-name {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #bbb;
+  }
+  
+  /* Footer Center Section */
+  .footer-center {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .contact-item i {
+    font-size: 1.2rem;
+    margin-right: 10px;
+    color: #61dafb;
+  }
+  
+  .contact-item a {
+    color: #61dafb;
+    text-decoration: none;
+  }
+  
+  .contact-item a:hover {
+    color: #21a1f1;
+  }
+  
+  /* Footer Right Section */
+  .footer-right {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .footer-about {
+    margin-bottom: 10px;
+  }
+  
+  .footer-about span {
+    font-weight: bold;
+  }
+  
+  .footer-icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .footer-icons a {
+    color: #61dafb;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-icons a:hover {
+    color: #21a1f1;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-left, .footer-center, .footer-right {
+      text-align: center;
+    }
+  
+    .footer-links {
+      display: inline-block;
+    }
+  }
+  
